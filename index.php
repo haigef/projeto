@@ -6,31 +6,52 @@
 <link rel= "stylesheet" tipe= "text/css" href="css/default.css">
 </head>
 <body>
-    <div class="head" >
-    	<div class="login">
-        	<form action="#" method="">
-            	<br>
-                	<input class="nomelogin" type="text" name="nomelogin">
-                    	<br>
-                    <input class="senhalogin" type="password" name="senha">
-                    <a href="#" class="resetsenha">Esqueci minha senha</a>
-                    <button class="botaologin" type="submit">Ok</button>
-             </form>
-     	 </div>
+<header>
+    <div class="boxlogin">
+        <form action="#" method="POST">
+            <input class="login" type="text" name="login">
+            <input class="senha" type="password" name="senha">
+            <a href="#">Esqueci minha senha</a>
+            <button type="submit">OK</button>
+        </form>
     </div>
-
+</header>
     <div class="nav">
-        <button id="buttonMenu1"><font class="fontMenu">B&aacute;sico</font></button>
-        <button class="buttonMenu"><font class="fontMenu">Avan&ccedil;ado</font></button>
-        <button class="buttonMenu"><font class="fontMenu">Relat&oacute;rios</font></button>
-        <button class="buttonMenu"><font class="fontMenu">Configura&ccedil;&otilde;es</font></button>
+        <ul class="navigation">
+            <li><button class="buttonmenu">B&aacute;sico</button></li>
+            <li><button class="buttonmenu">Avan&ccedil;ado</button></li>
+            <li><button class="buttonmenu">Relat&oacute;rios</button></li>
+            <li><button class="buttonmenu">Configura&ccedil;&otilde;es</button></li>
+        </ul>
+        <ul class="dropdown">
+            <div class="box">
+                <li><button class="buttondrop">B&aacute;sico</button></li>
+                <li><button class="buttondrop">Avan&ccedil;ado</button></li>
+                <li><button class="buttondrop">Relat&oacute;rios</button></li>
+                <li><button class="buttondrop">Configura&ccedil;&otilde;es</button></li>
+            </div>
+        </ul>
     </div>
-    <br>
-    <div class="asside"><br><font class="fontMenu">&nbsp; &nbsp; &nbsp; Cadastros ></font ></div>
-    <div class="section">	
-         <form action="#" method="">
-         	<input class="busca" type="search" name="busca">
-          </form>
+<!-- ao fazer as telas de cadastro e tudo mais mudo aqui pra algo mais bonito-->
+    <div class="asside">
+        <ul>
+            <li><button class="assidebutton">► Cadastros</button></li>
+        </ul>
     </div>
+<!-- iremos trabalhar com o include dentro da div "content" -->
+<section>
+         <form action="#" method="POST">
+         	<input class="busca" placeholder="Busca" type="search" name="busca">
+         </form>
+         <div class="content">
+               <!-- <script>
+                    function pesquisa(nome_function)
+                        {
+                            url="nome_aqui.php";
+                            ajax(url);
+                        }
+                </script> -->
+         </div>
+</section>
 </body>
 </html>
