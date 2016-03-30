@@ -1,0 +1,118 @@
+@charset "utf-8";
+body {
+	background-color: transparent;
+	width: 100%;
+	height: auto;
+}
+
+.head {
+	background-color: #e4e4e4;
+	width: 80%;
+	height: 95px;
+	position: relative;
+	margin-right: 10%;
+	margin-left: 10%;
+	float: left;
+}
+
+.login {
+	background-color: #aeb0b5;
+	width: 20%;
+	height: 95px;
+	position: relative;
+	float: right;
+}
+
+.nomelogin {
+	margin-left: 4%;
+}
+
+.senhalogin {
+	margin-top: 3%;
+	margin-left: 4%;
+}
+
+.botaologin {
+	position: relative;
+	background-color: transparent;
+	font-color: #FFFBFB;
+	margin-top: 1%;
+	margin-left: 9%;
+}
+
+.resetsenha {
+	color:#0000cf;
+	text-decoration:none;
+	font-size:10px;
+	font-family: Verdana, sans-serif;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.nav {
+	background-color: #0071bc;
+	width: 80%;
+	height: 40px;
+	position: relative;
+	float: left;
+	margin-left: 10%;
+	border-top: #000000 solid;
+	border: 2%;
+}
+
+
+.buttonMenu {
+	background-color: #205493;
+	border-color: #163b68;
+	height: 30px;
+	font color: #ffffff;
+	margin-top: 0.5%;
+	float: left;
+}
+
+	#buttonMenu1 {
+		background-color: #205493;
+		border-color: #163b68;
+		height: 30px;
+		font color: #ffffff;
+		margin-left: 1%;
+		margin-top: 0.5%;
+		float: left;
+	}
+
+.fontMenu {
+	font: helvetica;
+	font-size: 20px;
+	color: #ffffff;
+	
+}
+
+.asside {
+	background-color: #0071bc;
+	width: 25%;
+	height: 356px;
+	margin-left: 10%;
+	position: relative;
+	float:left;
+}
+
+.section {
+	background-color: #aeb0b5;
+	width: 54%;
+	height:346px;
+	position: relative;
+	float: left;
+	border: #5f656e solid;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+}
+
+.busca {
+	position: relative;
+	float: right;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+	
+
+	
