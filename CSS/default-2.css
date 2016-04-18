@@ -17,11 +17,19 @@
 	float: right;
 	margin-top: 25px;
 	margin-right: 20px;
+		background-color: #205493;
+	border-color: #163b68;
+	font: helvetica;
+	color: #ffffff;
 }
 .corpo .btn-res {
 	float: right;
 	margin-top: 25px;
 	margin-right: 10px;
+		background-color: #205493;
+	border-color: #163b68;
+	font: helvetica;
+	color: #ffffff;
 }
 .corpo .campos .cmp-text {
 	float: left;

@@ -81,9 +81,7 @@ section {
 .dropdown {
 	display: none;
 }
-.asside:first-child li {
-	margin-top: 30px;
-}
+
 .buttonmenu {
 	float: left;
 	margin-left: 4px;
@@ -95,6 +93,10 @@ section {
 	margin-left: 4px;
 	font-size: 20px;
 
+}
+.assidebutton {
+	font-size: 26px;
+	margin-top: 30px;
 }
 /* breakpoint responsivo */
 @media (max-width: 850px) {
@@ -146,4 +148,9 @@ section {
 	margin-left: 10%;
 	height: auto;
 }
-/* final do breakpoint  max width 850px  */
+.btn-sub {
+	background-color: #205493;
+	border-color: #163b68;
+	font: helvetica;
+	color: #ffffff;
+}
