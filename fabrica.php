@@ -15,6 +15,24 @@
 					<option value="matriz">Matriz</option>
 					<option value="filial">Filial</option>
 				</select>
+                </div>
+                <div class="grupo">
+					<div class="texto">Codigo Fabrica:</div>
+				</div>
+            	<div class="campos">
+                	<select name="tipo" id="tipo" class="selecao">
+						<option value="exemplo1">exemplo 1</option>
+						<option value="exemplo2">exemplo 2</option>
+					</select>
+                </div>
+                <div class="grupo">
+					<div class="texto">Tipo:</div>
+				</div>
+            	<div class="campos">
+                	<select name="tipo" id="tipo" class="selecao">
+						<option value="administrativo">Administrativo</option>
+						<option value="producao">Produção</option>
+					</select>
 				<input type="submit" value="Salvar" class="btn-sub" />
 				<input type="reset" value="Cancelar" class="btn-res" />
 			</div>
