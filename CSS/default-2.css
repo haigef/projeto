@@ -1,0 +1,97 @@
+.corpo {
+	clear: both;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+.corpo .grupo {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.corpo .campos {
+	float: left;
+	width: 80%;
+}
+.corpo .btn-sub {
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.corpo .btn-res {
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+.corpo .campos .cmp-text {
+	float: left;
+	width: 50%;
+}
+.btn-1 {
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.btn-2 {
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.corpo .form {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+}
+.corpo .grupo {
+	float: left;
+	width: 30%;
+	height: auto;
+	padding-top: 30px;
+}
+.corpo .grupo .texto {
+	float: right;
+	margin-right: 10px;
+	text-align: right;
+	height: auto;
+	clear: both;
+	margin-bottom: 10px;
+}
+.corpo .campos {
+	float: left;
+	height: auto;
+	width: 70%;
+	margin-top: 25px;
+}
+.corpo .campos .campo_input {
+	float: left;
+	width: 250px;
+	margin-bottom: 9px;
+	margin-right: 41px;
+	height: auto;
+	clear: both;
+}
+.corpo .campos .botoes {
+	float: right;
+	height: 25%;
+	width: 50%;
+	text-align: left;
+	margin-right: 20px;
+}
+.corpo .btn {
+	float: right;
+	width: auto;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.corpo .campos .selecao {
+	float: left;
+	width: 250px;
+	clear: both;
+	margin-bottom: 6px;
+	margin-right: 41px;
+}
