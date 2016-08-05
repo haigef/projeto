@@ -41,12 +41,12 @@ $row_fabrica = mysql_fetch_assoc($fabrica);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Cadastro Matriz Principal</title>
+<title>Confirma&ccedil;&atilde;o para deletar</title>
 <link rel= "stylesheet" tipe= "text/css" href="css/default-2.css">
 </head>
 <body>
 	<div class="corpo">
-		<form class="form" name="edit" method="post" action="fabrica_cadastros.php">
+		<form class="form" name="del" method="post" action="fabrica_cadastros.php">
 			<div class="grupo">
 				<div class="texto">C&oacute;digo:</div>
 				<div class="texto">Descri&ccedil;&atilde;o:</div>

@@ -1,7 +1,6 @@
 ﻿<html>
 <head>
 <meta charset="utf-8">
-<title>index</title>
 <link rel= "stylesheet" tipe= "text/css" href="css/default.css">
 </head>
 <script>
@@ -59,7 +58,7 @@ return false; });});
          	<input class="busca" placeholder="Busca" type="search" name="busca">
          </form>
          <div class="content">
-               <?php include "fabrica.php";?>
+               <?php include "fabrica_lista.php";?>
          </div>
 </section>
 </body>

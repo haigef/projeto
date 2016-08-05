@@ -41,7 +41,7 @@ $totalRows_fabrica = mysql_num_rows($fabrica);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Cadastro Matriz Principal</title>
+<title>Cadastro Filial</title>
 <link rel= "stylesheet" tipe= "text/css" href="css/default-2.css">
 </head>
 <body>
@@ -71,4 +71,7 @@ $totalRows_fabrica = mysql_num_rows($fabrica);
 	</div>
 </body>
 </html>
+<?php
+mysql_free_result($fabrica);
+?>
 <!--Envia os campos dentro dos outros comentarios para fabrica_conf_add.php -->
